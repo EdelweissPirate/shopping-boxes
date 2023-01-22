@@ -60,7 +60,7 @@ function Categories() {
         <Helmet title={'Categories'} />
         <section id="categories">
             <div className="categories-menu slide-in h-fill flex flex-center col" >
-                <h2 className="spacer">Please select a categories</h2>
+                <h2 className="spacer">Please select a category</h2>
                 <div className="round-corners border grid categories-menu-inner p-1 w-fill">
                     {generateCategories()}
                 </div>
