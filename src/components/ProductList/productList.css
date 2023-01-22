@@ -1,0 +1,25 @@
+.product-grid {
+    width: 90%;
+    margin: 4rem auto;
+    display: grid;
+    gap: 4rem 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.product-filter {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "1 2 3 4";
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .product-list {
+        width: 100%;
+    }
+
+    .product-grid {
+        width: 100%;
+    }
+}
